@@ -1,0 +1,16 @@
+BOT_TOKEN = '...'
+BASIC_CATEGORIES = ['food, products',
+                    'medications',
+                    'clothes, footwear',
+                    'transport, subway, bus, cab',
+                    'internet, telecom',
+                    'toiletries',
+                    'stationery',
+                    'entertainment, movies',
+                    'subscriptions',
+                    'important purchases',
+                    'taxes',
+                    'salary, scholarship',
+                    'business',
+                    'money transfer',
+                    'other']
