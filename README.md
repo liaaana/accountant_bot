@@ -37,8 +37,8 @@ python3 main.py
 
 ### All functions
 
-- **start/help** - adding a user to the database and creates basic categories
-- **delete** - deleting all information about the user
+- **start/help** - adding a user to the database and creating basic categories
+- **delete** - deleting all information about a user
 - **categories** - viewing available categories
 - **statistics_(period)** - viewing statistics for a certain period
 - **excel** - sending an excel file with the history of all records
@@ -49,8 +49,8 @@ python3 main.py
 
 | Problem                                                                                                                      | Solution                                                                                                                      |
 |------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| The large number of database calls makes the code in main.py difficult to read                                               | I put all the database logic in a separate file. it consists of an accountant class with the necessary functions              | 
-| The datetime library will not allow you to subtract months from a certain date only days (not all months consist of 30 days) | Use the dateutil library, which can be used to subtract months and years                                                      |
+| A large number of database calls makes the code in main.py difficult to read                                               | I put all the database logic in a separate file. it consists of an accountant class with the necessary functions              | 
+| The datetime library will not allow you to subtract months from a certain date, only days (not all months consist of 30 days) | Use the dateutil library, which can be used to subtract months and years                                                      |
 | A person can add a lot of records per day, so you need to make it as easy as possible                                        | At the beginning of bot use, show a simple way to add a record (+amount/-amount category) and check the text sent by the user |
 
 
