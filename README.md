@@ -12,10 +12,10 @@
 <img src="https://img.shields.io/badge/sqlite3-2.5-white.svg">
 
 </p>
-Accountant bot for the "Telegram" messenger 
+Bot for the "Telegram" messenger 
 
 ---
-Accountant bot in which you can add your revenues and expenses. Bot gives statistics for a certain period and also the history of records in excel file.
+Telegram bot in which you can add your revenues and expenses. Bot gives statistics for a certain period and also the history of records in excel file.
 
 Sqlite data connected to the bot. It consists of 3 tables: users, categories, revenues_and_expenses
 
